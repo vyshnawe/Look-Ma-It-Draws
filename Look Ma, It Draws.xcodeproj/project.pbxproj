@@ -13,6 +13,8 @@
 		0D8CDB2C1FCCCF4F0098EFA7 /* Look_Ma__It_Draws.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDB2A1FCCCF4F0098EFA7 /* Look_Ma__It_Draws.xcdatamodeld */; };
 		0D8CDB2E1FCCCF4F0098EFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CDB2D1FCCCF4F0098EFA7 /* Assets.xcassets */; };
 		0D8CDB311FCCCF4F0098EFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CDB2F1FCCCF4F0098EFA7 /* LaunchScreen.storyboard */; };
+		0D8CDB391FCCCFE80098EFA7 /* LookItDraws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDB381FCCCFE80098EFA7 /* LookItDraws.swift */; };
+		0D8CDB3B1FCCD0B20098EFA7 /* drawSquiggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDB3A1FCCD0B20098EFA7 /* drawSquiggles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0D8CDB2D1FCCCF4F0098EFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D8CDB301FCCCF4F0098EFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D8CDB321FCCCF4F0098EFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8CDB381FCCCFE80098EFA7 /* LookItDraws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookItDraws.swift; sourceTree = "<group>"; };
+		0D8CDB3A1FCCD0B20098EFA7 /* drawSquiggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawSquiggles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				0D8CDB231FCCCF4F0098EFA7 /* AppDelegate.swift */,
 				0D8CDB251FCCCF4F0098EFA7 /* ViewController.swift */,
+				0D8CDB381FCCCFE80098EFA7 /* LookItDraws.swift */,
+				0D8CDB3A1FCCD0B20098EFA7 /* drawSquiggles.swift */,
 				0D8CDB271FCCCF4F0098EFA7 /* Main.storyboard */,
 				0D8CDB2D1FCCCF4F0098EFA7 /* Assets.xcassets */,
 				0D8CDB2F1FCCCF4F0098EFA7 /* LaunchScreen.storyboard */,
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D8CDB261FCCCF4F0098EFA7 /* ViewController.swift in Sources */,
+				0D8CDB3B1FCCD0B20098EFA7 /* drawSquiggles.swift in Sources */,
 				0D8CDB2C1FCCCF4F0098EFA7 /* Look_Ma__It_Draws.xcdatamodeld in Sources */,
 				0D8CDB241FCCCF4F0098EFA7 /* AppDelegate.swift in Sources */,
+				0D8CDB391FCCCFE80098EFA7 /* LookItDraws.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +290,7 @@
 				DEVELOPMENT_TEAM = 73W843G446;
 				INFOPLIST_FILE = "Look Ma, It Draws/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Look-Ma--It-Draws";
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +305,7 @@
 				DEVELOPMENT_TEAM = 73W843G446;
 				INFOPLIST_FILE = "Look Ma, It Draws/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Look-Ma--It-Draws";
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
